@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="EMSBackup: private encrypted energy management system database backups to Google Drive."><title>EMSBackup — Personal encrypted backups</title><style>
+:root{color-scheme:light dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif}body{margin:0;background:#f5f7fb;color:#172333}main{max-width:760px;margin:5rem auto;padding:2.5rem;background:white;border-radius:16px;box-shadow:0 8px 32px #15233b12}h1{font-size:2.1rem;margin-top:0}p,li{line-height:1.7}a{color:#1763ba}nav{margin-bottom:2rem}nav a{margin-right:1.2rem}footer{margin-top:2.5rem;font-size:.9rem;color:#556}@media(max-width:700px){main{margin:0;padding:1.5rem;min-height:100vh;border-radius:0}}</style></head>
+<body><main><nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a></nav>
+<h1>EMSBackup</h1>
+<p>EMSBackup is a personal utility that backs up a private energy management system (EMS) SQLite database to the owner's Google Drive using rclone.</p>
+<h2>How it works</h2>
+<p>The backup runs on a private server. Backup files are encrypted locally before being transferred to Google Drive. The application uses OAuth authorization to access the account selected by the owner and to maintain its backup retention policy.</p>
+<p>EMSBackup is intended solely for the owner's personal use. It does not offer accounts or services to the general public.</p>
+<h2>Google Drive permissions</h2>
+<p>The application requests Google Drive access to upload, list, retrieve, and delete backup files. Because the existing backup destination must be preserved, it may request the broad Google Drive scope. These permissions are used only for the owner's backup workflow.</p>
+<p>For more information, see the <a href="privacy.html">privacy policy</a>.</p>
+<footer>EMSBackup · Personal backup utility</footer></main></body></html>
